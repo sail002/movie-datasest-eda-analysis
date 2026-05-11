@@ -30,10 +30,12 @@ movie-datasest-eda-analysis/
 | `Year of Release` | Release year |
 | `Genre` | One or more genre tags |
 | `Movie Rating` | IMDb user rating (1–10) |
+| `Duration` | Runtime |
 | `Gross` | Domestic gross earnings (USD) |
 | `Worldwide LT Gross` | Worldwide lifetime gross (USD) |
 | `Metascore` | Weighted critic score (0–100) |
 | `Votes` | Total IMDb votes cast |
+|`Logline`| Brief Description|
 
 **Source:** IMDb via Box Office Mojo — snapshot as of September 5, 2022.
 
@@ -86,13 +88,16 @@ movie-datasest-eda-analysis/
 
 | # | Finding |
 |---|---|
-| 1 | **Sci-Fi** leads all genres in audience engagement — ~40% more votes than second-ranked Mystery |
-| 2 | **Drama, Animation & Crime** score highest critically (Metascore), yet underperform commercially |
-| 3 | **Fantasy, Sci-Fi & Adventure** dominate worldwide box office revenue |
-| 4 | **Animation** is the only genre that ranks high on both critical and commercial metrics |
-| 5 | Most genres score between **5.5–6.5** on Metascore — but votes and revenue vary dramatically |
-| 6 | **Audience engagement** (votes) is a stronger predictor of commercial success than ratings alone |
-| 7 | Critically acclaimed genres and commercially dominant genres are largely **non-overlapping** |
+| 1 | Revenue and engagement metrics are heavily skewed due to blockbuster outliers. |
+| 2 | Popularity-based metrics correlate more strongly with financial success than ratings alone. |
+| 3 | Genre plays a major role in influencing both audience behavior and financial outcomes. |
+| 4 | **Sci-Fi** leads all genres in audience engagement — ~40% more votes than second-ranked Mystery |
+| 5 | **Drama, Animation & Crime** score highest critically (Metascore), yet underperform commercially |
+| 6 | **Fantasy, Sci-Fi & Adventure** dominate worldwide box office revenue |
+| 7 | **Animation** is the only genre that ranks high on both critical and commercial metrics |
+| 8 | Most genres score between **5.5–6.5** on Metascore — but votes and revenue vary dramatically |
+| 9 | **Audience engagement** (votes) is a stronger predictor of commercial success than ratings alone |
+| 10 | Strong audience approval combined with widespread engagement is most closely associated with exceptional worldwide revenue. |
 
 ---
 
